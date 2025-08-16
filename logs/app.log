@@ -1,0 +1,152 @@
+[2025-08-16T07:04:11.594Z] INFO: 🚀 Multi-Client Webhook API Server started on port 3000 
+[2025-08-16T07:04:11.597Z] INFO: 📧 Webhook endpoints: http://localhost:3000/webhook/:clientId/shipment 
+[2025-08-16T07:04:11.604Z] INFO: ❤️  Health check: http://localhost:3000/health 
+[2025-08-16T07:04:11.605Z] INFO: 📋 Available clients: http://localhost:3000/health/clients 
+[2025-08-16T07:04:25.795Z] INFO: SIGINT received. Shutting down gracefully... 
+[2025-08-16T07:15:27.252Z] INFO: 🚀 Multi-Client Webhook API Server started on port 3000 
+[2025-08-16T07:15:27.260Z] INFO: 📧 Webhook endpoints: http://localhost:3000/webhook/:clientId/shipment 
+[2025-08-16T07:15:27.261Z] INFO: ❤️  Health check: http://localhost:3000/health 
+[2025-08-16T07:15:27.264Z] INFO: 📋 Available clients: http://localhost:3000/health/clients 
+[2025-08-16T07:20:52.618Z] INFO: 🚀 Multi-Client Webhook API Server started on port 3000 
+[2025-08-16T07:20:52.621Z] INFO: 📧 Webhook endpoints: http://localhost:3000/webhook/:clientId/shipment 
+[2025-08-16T07:20:52.621Z] INFO: ❤️  Health check: http://localhost:3000/health 
+[2025-08-16T07:20:52.621Z] INFO: 📋 Available clients: http://localhost:3000/health/clients 
+[2025-08-16T07:28:53.427Z] INFO: 🚀 Multi-Client Webhook API Server started on port 3003 
+[2025-08-16T07:28:53.432Z] INFO: 📧 Webhook endpoints: http://localhost:3003/webhook/:clientId/shipment 
+[2025-08-16T07:28:53.433Z] INFO: ❤️  Health check: http://localhost:3003/health 
+[2025-08-16T07:28:53.434Z] INFO: 📋 Available clients: http://localhost:3003/health/clients 
+[2025-08-16T07:29:19.076Z] INFO: Health check requested 
+[2025-08-16T07:31:58.538Z] INFO: Health check requested 
+[2025-08-16T07:32:46.680Z] INFO: Health check requested 
+[2025-08-16T07:37:08.121Z] ERROR: Webhook validation failed - missing fields: ["shipment_status","awb","order_id"]
+[2025-08-16T07:37:58.331Z] INFO: Webhook validation passed {"clientId":"1","awb":"SRSC9461548386","status":"DELIVERED"}
+[2025-08-16T07:37:58.332Z] INFO: Webhook received for client 1: {"clientId":"1","awb":"SRSC9461548386","status":"DELIVERED"}
+[2025-08-16T07:37:58.335Z] INFO: Shipment SRSC9461548386 delivered for client 1. Sending notification... 
+[2025-08-16T07:37:58.410Z] INFO: Sending email: {"clientId":"1","from":"noreply@client1.com","to":["admin@client1.com","notifications@client1.com"],"subject":"Shipment Delivered - Client 1 - AWB: SRSC9461548386"}
+[2025-08-16T07:38:00.047Z] INFO: Email sent successfully: {"clientId":"1","awb":"SRSC9461548386"}
+[2025-08-16T07:46:15.469Z] INFO: Webhook validation passed {"clientId":"1","awb":"SRSC9461548386","status":"DELIVERED"}
+[2025-08-16T07:46:15.499Z] INFO: Webhook received for client 1: {"clientId":"1","awb":"SRSC9461548386","status":"DELIVERED"}
+[2025-08-16T07:46:15.504Z] INFO: Shipment SRSC9461548386 delivered for client 1. Sending notification... 
+[2025-08-16T07:46:15.505Z] INFO: Sending email: {"clientId":"1","from":"noreply@client1.com","to":["admin@client1.com","notifications@client1.com"],"subject":"Shipment Delivered - Client 1 - AWB: SRSC9461548386"}
+[2025-08-16T07:46:16.637Z] INFO: Email sent successfully: {"clientId":"1","awb":"SRSC9461548386"}
+[2025-08-16T07:49:29.879Z] INFO: Webhook validation passed {"clientId":"1","awb":"SRSC9461548386","status":"DELIVERED"}
+[2025-08-16T07:49:29.880Z] INFO: Webhook received for client 1: {"clientId":"1","awb":"SRSC9461548386","status":"DELIVERED"}
+[2025-08-16T07:49:29.882Z] INFO: Shipment SRSC9461548386 delivered for client 1. Sending notification... 
+[2025-08-16T07:49:29.885Z] INFO: Sending email: {"clientId":"1","from":"noreply@client1.com","to":["admin@client1.com","notifications@client1.com"],"subject":"Shipment Delivered - Client 1 - AWB: SRSC9461548386"}
+[2025-08-16T07:49:31.043Z] INFO: Email sent successfully: {"clientId":"1","awb":"SRSC9461548386"}
+[2025-08-16T07:49:43.805Z] INFO: SIGINT received. Shutting down gracefully... 
+[2025-08-16T07:49:48.977Z] INFO: 🚀 Multi-Client Webhook API Server started on port 3003 
+[2025-08-16T07:49:48.980Z] INFO: 📧 Webhook endpoints: http://localhost:3003/webhook/:clientId/shipment 
+[2025-08-16T07:49:48.981Z] INFO: ❤️  Health check: http://localhost:3003/health 
+[2025-08-16T07:49:48.982Z] INFO: 📋 Available clients: http://localhost:3003/health/clients 
+[2025-08-16T07:49:55.062Z] INFO: Webhook validation passed {"clientId":"1","awb":"SRSC9461548386","status":"DELIVERED"}
+[2025-08-16T07:49:55.065Z] INFO: Webhook received for client 1: {"clientId":"1","awb":"SRSC9461548386","status":"DELIVERED"}
+[2025-08-16T07:49:55.066Z] INFO: Shipment SRSC9461548386 delivered for client 1. Sending notification... 
+[2025-08-16T07:49:55.112Z] INFO: Sending email: {"clientId":"1","from":"noreply_resend@resend.dev","to":["pharmatail@yahoo.com"],"subject":"SRSC9461548386 : Shipment Delivered - ShippingDL"}
+[2025-08-16T07:49:56.462Z] INFO: Email sent successfully: {"clientId":"1","awb":"SRSC9461548386","emailId":"161aa5ec-23f1-4f2b-994e-22b606d13e74"}
+[2025-08-16T07:57:02.091Z] INFO: Webhook validation passed {"clientId":"1","awb":"SRSC9461548386","status":"DELIVERED"}
+[2025-08-16T07:57:02.099Z] INFO: Webhook received for client 1: {"clientId":"1","awb":"SRSC9461548386","status":"DELIVERED"}
+[2025-08-16T07:57:02.099Z] INFO: Shipment SRSC9461548386 delivered for client 1. Sending notification... 
+[2025-08-16T07:57:02.100Z] INFO: Sending email: {"clientId":"1","from":"noreply_resend@resend.dev","to":["pharmatail@yahoo.com"],"subject":"SRSC9461548386 : Shipment Delivered - ShippingDL"}
+[2025-08-16T07:57:03.533Z] INFO: Email sent successfully: {"clientId":"1","awb":"SRSC9461548386","emailId":"622b7dbc-fc4e-4425-b5e1-fb0802ec46c5"}
+[2025-08-16T07:57:44.521Z] INFO: SIGINT received. Shutting down gracefully... 
+[2025-08-16T07:57:50.100Z] INFO: 🚀 Multi-Client Webhook API Server started on port 3003 
+[2025-08-16T07:57:50.103Z] INFO: 📧 Webhook endpoints: http://localhost:3003/webhook/:clientId/shipment 
+[2025-08-16T07:57:50.104Z] INFO: ❤️  Health check: http://localhost:3003/health 
+[2025-08-16T07:57:50.104Z] INFO: 📋 Available clients: http://localhost:3003/health/clients 
+[2025-08-16T07:57:59.110Z] INFO: Webhook validation passed {"clientId":"1","awb":"SRSC9461548386","status":"DELIVERED"}
+[2025-08-16T07:57:59.113Z] INFO: Webhook received for client 1: {"clientId":"1","awb":"SRSC9461548386","status":"DELIVERED"}
+[2025-08-16T07:57:59.113Z] INFO: Shipment SRSC9461548386 delivered for client 1. Sending notification... 
+[2025-08-16T07:57:59.174Z] INFO: Sending email: {"clientId":"1","from":"noreply_resend@resend.dev","to":["pharmatail@yahoo.com"],"subject":"SRSC9461548386 - Ekart Logistics Surface_Stressed - Shipment Delivered - ShippingDL"}
+[2025-08-16T07:58:00.509Z] INFO: Email sent successfully: {"clientId":"1","awb":"SRSC9461548386","emailId":"c6b4a3aa-97f6-4255-ad65-bd5449909b6f"}
+[2025-08-16T08:38:05.939Z] INFO: SIGINT received. Shutting down gracefully... 
+[2025-08-16T08:38:10.120Z] INFO: 🚀 Multi-Client Webhook API Server started on port 3003 
+[2025-08-16T08:38:10.123Z] INFO: 📧 Webhook endpoints: http://localhost:3003/webhook/:clientId/shipment 
+[2025-08-16T08:38:10.123Z] INFO: ❤️  Health check: http://localhost:3003/health 
+[2025-08-16T08:38:10.124Z] INFO: 📋 Available clients: http://localhost:3003/health/clients 
+[2025-08-16T08:38:14.122Z] INFO: Webhook validation passed {"clientId":"1","awb":"SRSC9461548386","status":"DELIVERED"}
+[2025-08-16T08:38:14.123Z] INFO: Webhook received for client 1: {"clientId":"1","awb":"SRSC9461548386","status":"DELIVERED"}
+[2025-08-16T08:38:14.124Z] INFO: Shipment SRSC9461548386 delivered for client 1. Sending notification... 
+[2025-08-16T08:38:14.155Z] INFO: Sending email: {"clientId":"1","from":"noreply_resend@resend.dev","to":["pharmatail@yahoo.com"],"subject":"SRSC9461548386 - Ekart Logistics Surface_Stressed - Shipment Delivered - ShippingDL"}
+[2025-08-16T08:38:15.666Z] INFO: Email sent successfully: {"clientId":"1","awb":"SRSC9461548386","emailId":"858de225-2c14-4bdc-ab9e-2262755cb857"}
+[2025-08-16T08:39:21.357Z] INFO: SIGINT received. Shutting down gracefully... 
+[2025-08-16T08:39:24.836Z] INFO: 🚀 Multi-Client Webhook API Server started on port 3003 
+[2025-08-16T08:39:24.842Z] INFO: 📧 Webhook endpoints: http://localhost:3003/webhook/:clientId/shipment 
+[2025-08-16T08:39:24.843Z] INFO: ❤️  Health check: http://localhost:3003/health 
+[2025-08-16T08:39:24.844Z] INFO: 📋 Available clients: http://localhost:3003/health/clients 
+[2025-08-16T08:39:29.750Z] INFO: Webhook validation passed {"clientId":"1","awb":"SRSC9461548386","status":"DELIVERED"}
+[2025-08-16T08:39:29.752Z] INFO: Webhook received for client 1: {"clientId":"1","awb":"SRSC9461548386","status":"DELIVERED"}
+[2025-08-16T08:39:29.753Z] INFO: Shipment SRSC9461548386 delivered for client 1. Sending notification... 
+[2025-08-16T08:39:29.810Z] INFO: Sending email: {"clientId":"1","from":"noreply_resend@resend.dev","to":["pharmatail@yahoo.com"],"subject":"SRSC9461548386 - Ekart Logistics Surface_Stressed - Shipment Delivered - ShippingDL"}
+[2025-08-16T08:39:31.241Z] INFO: Email sent successfully: {"clientId":"1","awb":"SRSC9461548386","emailId":"409f9f13-f6b5-451f-af68-b20c72091708"}
+[2025-08-16T08:44:49.104Z] INFO: SIGINT received. Shutting down gracefully... 
+[2025-08-16T08:44:52.067Z] INFO: 🚀 Multi-Client Webhook API Server started on port 3003 
+[2025-08-16T08:44:52.072Z] INFO: 📧 Webhook endpoints: http://localhost:3003/webhook/:clientId/shipment 
+[2025-08-16T08:44:52.073Z] INFO: ❤️  Health check: http://localhost:3003/health 
+[2025-08-16T08:44:52.074Z] INFO: 📋 Available clients: http://localhost:3003/health/clients 
+[2025-08-16T08:44:58.943Z] INFO: Webhook validation passed {"clientId":"1","awb":"SRSC9461548386","status":"DELIVERED"}
+[2025-08-16T08:44:58.945Z] INFO: Webhook received for client 1: {"clientId":"1","awb":"SRSC9461548386","status":"DELIVERED"}
+[2025-08-16T08:44:58.946Z] INFO: Shipment SRSC9461548386 delivered for client 1. Sending notification... 
+[2025-08-16T08:44:58.974Z] INFO: Sending email: {"clientId":"1","from":"noreply_resend@resend.dev","to":["pharmatail@yahoo.com"],"subject":"SRSC9461548386 - Ekart Logistics Surface_Stressed - Shipment Delivered - ShippingDL"}
+[2025-08-16T08:45:00.741Z] INFO: Email sent successfully: {"clientId":"1","awb":"SRSC9461548386","emailId":"9b5499e1-ab58-4f30-817b-04f314f45af1"}
+[2025-08-16T08:48:12.237Z] INFO: SIGINT received. Shutting down gracefully... 
+[2025-08-16T08:48:14.869Z] INFO: 🚀 Multi-Client Webhook API Server started on port 3003 
+[2025-08-16T08:48:14.872Z] INFO: 📧 Webhook endpoints: http://localhost:3003/webhook/:clientId/shipment 
+[2025-08-16T08:48:14.872Z] INFO: ❤️  Health check: http://localhost:3003/health 
+[2025-08-16T08:48:14.873Z] INFO: 📋 Available clients: http://localhost:3003/health/clients 
+[2025-08-16T08:48:18.677Z] INFO: Webhook validation passed {"clientId":"1","awb":"SRSC9461548386","status":"DELIVERED"}
+[2025-08-16T08:48:18.678Z] INFO: Webhook received for client 1: {"clientId":"1","awb":"SRSC9461548386","status":"DELIVERED"}
+[2025-08-16T08:48:18.678Z] INFO: Shipment SRSC9461548386 delivered for client 1. Sending notification... 
+[2025-08-16T08:48:18.707Z] INFO: Sending email: {"clientId":"1","from":"noreply_resend@resend.dev","to":["pharmatail@yahoo.com"],"subject":"SRSC9461548386 - Ekart Logistics Surface_Stressed - Shipment Delivered - ShippingDL"}
+[2025-08-16T08:48:20.544Z] INFO: Email sent successfully: {"clientId":"1","awb":"SRSC9461548386","emailId":"df97fb0a-a292-44aa-8e4e-dc7cf532c3ae"}
+[2025-08-16T08:49:48.873Z] INFO: SIGINT received. Shutting down gracefully... 
+[2025-08-16T08:49:52.617Z] INFO: 🚀 Multi-Client Webhook API Server started on port 3003 
+[2025-08-16T08:49:52.622Z] INFO: 📧 Webhook endpoints: http://localhost:3003/webhook/:clientId/shipment 
+[2025-08-16T08:49:52.622Z] INFO: ❤️  Health check: http://localhost:3003/health 
+[2025-08-16T08:49:52.623Z] INFO: 📋 Available clients: http://localhost:3003/health/clients 
+[2025-08-16T08:49:57.316Z] INFO: Webhook validation passed {"clientId":"1","awb":"SRSC9461548386","status":"DELIVERED"}
+[2025-08-16T08:49:57.317Z] INFO: Webhook received for client 1: {"clientId":"1","awb":"SRSC9461548386","status":"DELIVERED"}
+[2025-08-16T08:49:57.318Z] INFO: Shipment SRSC9461548386 delivered for client 1. Sending notification... 
+[2025-08-16T08:49:57.352Z] INFO: Sending email: {"clientId":"1","from":"noreply_resend@resend.dev","to":["pharmatail@yahoo.com"],"subject":"SRSC9461548386 - Ekart Logistics Surface_Stressed - Shipment Delivered - ShippingDL"}
+[2025-08-16T08:49:58.648Z] INFO: Email sent successfully: {"clientId":"1","awb":"SRSC9461548386","emailId":"15bce6aa-1ac7-47c4-94f8-6125307949a0"}
+[2025-08-16T08:51:42.226Z] INFO: SIGINT received. Shutting down gracefully... 
+[2025-08-16T08:51:46.439Z] INFO: 🚀 Multi-Client Webhook API Server started on port 3003 
+[2025-08-16T08:51:46.443Z] INFO: 📧 Webhook endpoints: http://localhost:3003/webhook/:clientId/shipment 
+[2025-08-16T08:51:46.443Z] INFO: ❤️  Health check: http://localhost:3003/health 
+[2025-08-16T08:51:46.444Z] INFO: 📋 Available clients: http://localhost:3003/health/clients 
+[2025-08-16T08:51:53.155Z] INFO: Webhook validation passed {"clientId":"1","awb":"SRSC9461548386","status":"DELIVERED"}
+[2025-08-16T08:51:53.156Z] INFO: Webhook received for client 1: {"clientId":"1","awb":"SRSC9461548386","status":"DELIVERED"}
+[2025-08-16T08:51:53.157Z] INFO: Shipment SRSC9461548386 delivered for client 1. Sending notification... 
+[2025-08-16T08:51:53.191Z] INFO: Sending email: {"clientId":"1","from":"noreply_resend@resend.dev","to":["pharmatail@yahoo.com"],"subject":"SRSC9461548386 - Ekart Logistics Surface_Stressed - Shipment Delivered - ShippingDL"}
+[2025-08-16T08:51:54.876Z] INFO: Email sent successfully: {"clientId":"1","awb":"SRSC9461548386","emailId":"04732167-1cb8-4293-b681-50292aa2a239"}
+[2025-08-16T08:52:58.637Z] INFO: SIGINT received. Shutting down gracefully... 
+[2025-08-16T08:53:01.922Z] INFO: 🚀 Multi-Client Webhook API Server started on port 3003 
+[2025-08-16T08:53:01.925Z] INFO: 📧 Webhook endpoints: http://localhost:3003/webhook/:clientId/shipment 
+[2025-08-16T08:53:01.925Z] INFO: ❤️  Health check: http://localhost:3003/health 
+[2025-08-16T08:53:01.926Z] INFO: 📋 Available clients: http://localhost:3003/health/clients 
+[2025-08-16T08:53:09.818Z] INFO: Webhook validation passed {"clientId":"1","awb":"SRSC9461548386","status":"DELIVERED"}
+[2025-08-16T08:53:09.819Z] INFO: Webhook received for client 1: {"clientId":"1","awb":"SRSC9461548386","status":"DELIVERED"}
+[2025-08-16T08:53:09.820Z] INFO: Shipment SRSC9461548386 delivered for client 1. Sending notification... 
+[2025-08-16T08:53:09.848Z] INFO: Sending email: {"clientId":"1","from":"noreply_resend@resend.dev","to":["pharmatail@yahoo.com"],"subject":"SRSC9461548386 - Ekart Logistics Surface_Stressed - Shipment Delivered - ShippingDL"}
+[2025-08-16T08:53:11.147Z] INFO: Email sent successfully: {"clientId":"1","awb":"SRSC9461548386","emailId":"333b165f-0f8c-45b4-ab9f-db6301eaf441"}
+[2025-08-16T08:54:34.616Z] INFO: SIGINT received. Shutting down gracefully... 
+[2025-08-16T08:55:46.637Z] INFO: 🚀 Multi-Client Webhook API Server started on port 3003 
+[2025-08-16T08:55:46.641Z] INFO: 📧 Webhook endpoints: http://localhost:3003/webhook/:clientId/shipment 
+[2025-08-16T08:55:46.641Z] INFO: ❤️  Health check: http://localhost:3003/health 
+[2025-08-16T08:55:46.642Z] INFO: 📋 Available clients: http://localhost:3003/health/clients 
+[2025-08-16T08:55:49.914Z] INFO: Webhook validation passed {"clientId":"1","awb":"SRSC9461548386","status":"DELIVERED"}
+[2025-08-16T08:55:49.915Z] INFO: Webhook received for client 1: {"clientId":"1","awb":"SRSC9461548386","status":"DELIVERED"}
+[2025-08-16T08:55:49.916Z] INFO: Shipment SRSC9461548386 delivered for client 1. Sending notification... 
+[2025-08-16T08:55:49.950Z] INFO: Sending email: {"clientId":"1","from":"noreply_resend@resend.dev","to":["pharmatail@yahoo.com"],"subject":"SRSC9461548386 - Ekart Logistics Surface_Stressed - Shipment Delivered - ShippingDL"}
+[2025-08-16T08:55:51.433Z] INFO: Email sent successfully: {"clientId":"1","awb":"SRSC9461548386","emailId":"c78cfffa-29ea-42d4-9069-0744740e42eb"}
+[2025-08-16T08:57:59.931Z] INFO: SIGINT received. Shutting down gracefully... 
+[2025-08-16T08:58:03.573Z] INFO: 🚀 Multi-Client Webhook API Server started on port 3003 
+[2025-08-16T08:58:03.575Z] INFO: 📧 Webhook endpoints: http://localhost:3003/webhook/:clientId/shipment 
+[2025-08-16T08:58:03.576Z] INFO: ❤️  Health check: http://localhost:3003/health 
+[2025-08-16T08:58:03.576Z] INFO: 📋 Available clients: http://localhost:3003/health/clients 
+[2025-08-16T08:58:09.822Z] INFO: Webhook validation passed {"clientId":"1","awb":"SRSC9461548386","status":"DELIVERED"}
+[2025-08-16T08:58:09.823Z] INFO: Webhook received for client 1: {"clientId":"1","awb":"SRSC9461548386","status":"DELIVERED"}
+[2025-08-16T08:58:09.823Z] INFO: Shipment SRSC9461548386 delivered for client 1. Sending notification... 
+[2025-08-16T08:58:09.855Z] INFO: Sending email: {"clientId":"1","from":"noreply_resend@resend.dev","to":["pharmatail@yahoo.com"],"subject":"SRSC9461548386 - Ekart Logistics Surface_Stressed - Shipment Delivered - ShippingDL"}
+[2025-08-16T08:58:11.046Z] INFO: Email sent successfully: {"clientId":"1","awb":"SRSC9461548386","emailId":"24ac6302-1092-4af2-854e-a6dc8c900751"}
+[2025-08-16T08:59:23.300Z] INFO: SIGINT received. Shutting down gracefully... 
