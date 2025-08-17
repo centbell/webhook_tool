@@ -227,3 +227,4 @@
 [2025-08-17T05:00:04.798Z] INFO: 📧 Webhook endpoints: http://localhost:3003/webhook/:clientId/shipment 
 [2025-08-17T05:00:04.798Z] INFO: ❤️  Health check: http://localhost:3003/health 
 [2025-08-17T05:00:04.799Z] INFO: 📋 Available clients: http://localhost:3003/health/clients 
+[2025-08-17T05:00:31.627Z] INFO: SIGINT received. Shutting down gracefully... 
