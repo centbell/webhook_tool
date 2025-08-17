@@ -1,4 +1,5 @@
 const express = require('express');
+const morgan = require('morgan');
 require('dotenv').config();
 
 // Import configurations and middleware
@@ -13,6 +14,9 @@ const PORT = appConfig.port;
 // Middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+
+// Add Morgan HTTP request logging
+app.use(morgan('combined'));
 
 // CORS middleware
 app.use((req, res, next) => {
