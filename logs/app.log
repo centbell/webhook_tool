@@ -265,3 +265,7 @@
 [2025-08-18T19:07:30.182Z] INFO: 📧 Webhook endpoints: http://localhost:3003/webhook/:clientId/shipment 
 [2025-08-18T19:07:30.191Z] INFO: ❤️  Health check: http://localhost:3003/health 
 [2025-08-18T19:07:30.194Z] INFO: 📋 Available clients: http://localhost:3003/health/clients 
+[2025-08-18T19:55:51.925Z] INFO: 🚀 Multi-Client Webhook API Server started on port 3003 
+[2025-08-18T19:55:51.928Z] INFO: 📧 Webhook endpoints: http://localhost:3003/webhook/:clientId/shipment 
+[2025-08-18T19:55:51.929Z] INFO: ❤️  Health check: http://localhost:3003/health 
+[2025-08-18T19:55:51.930Z] INFO: 📋 Available clients: http://localhost:3003/health/clients 
