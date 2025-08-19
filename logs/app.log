@@ -289,3 +289,7 @@
 [2025-08-19T19:38:38.336Z] INFO: ❤️  Health check: http://localhost:3003/health 
 [2025-08-19T19:38:38.379Z] INFO: 📋 Available clients: http://localhost:3003/health/clients 
 [2025-08-19T19:39:30.565Z] INFO: SIGINT received. Shutting down gracefully... 
+[2025-08-19T19:47:18.243Z] INFO: 🚀 Multi-Client Webhook API Server started on port 3003 
+[2025-08-19T19:47:18.247Z] INFO: 📧 Webhook endpoints: http://localhost:3003/webhook/:clientId/shipment 
+[2025-08-19T19:47:18.247Z] INFO: ❤️  Health check: http://localhost:3003/health 
+[2025-08-19T19:47:18.247Z] INFO: 📋 Available clients: http://localhost:3003/health/clients 
