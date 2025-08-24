@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shipment Update</title>
+</head>
+<body style="margin: 0; padding: 0; font-family: Arial, sans-serif; background-color: #f5f5f5;">
+    <div style="max-width: 600px; margin: 0 auto; background-color: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+        <!-- Header -->
+        <div style="background: linear-gradient(135deg, #2196F3, #1976D2); color: white; padding: 30px 20px; text-align: center;">
+            <h1 style="margin: 0; font-size: 28px; font-weight: bold;">🚛 Shipment Update</h1>
+            <p style="margin: 10px 0 0 0; font-size: 16px; opacity: 0.9;">Your package is on its way</p>
+        </div>
+
+        <!-- Content -->
+        <div style="padding: 30px 20px;">
+            <!-- Status Badge -->
+            <div style="text-align: center; margin-bottom: 30px;">
+                <span style="background-color: #2196F3; color: white; padding: 8px 20px; border-radius: 20px; font-weight: bold; font-size: 14px; text-transform: uppercase;">📍 {{shipment_status}}</span>
+            </div>
+
+            <!-- Package Details -->
+            <div style="background-color: #f8f9fa; border-radius: 8px; padding: 20px; margin-bottom: 20px;">
+                <h2 style="margin: 0 0 15px 0; color: #333; font-size: 18px; border-bottom: 2px solid #2196F3; padding-bottom: 8px;">📋 Package Details</h2>
+                
+                <table style="width: 100%; border-collapse: collapse;">
+                    <tr>
+                        <td style="padding: 8px 0; font-weight: bold; color: #555; width: 120px;">AWB Number:</td>
+                        <td style="padding: 8px 0; color: #333;">{{awb}}</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 8px 0; font-weight: bold; color: #555;">Order ID:</td>
+                        <td style="padding: 8px 0; color: #333;">{{order_id}}</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 8px 0; font-weight: bold; color: #555;">Status:</td>
+                        <td style="padding: 8px 0; color: #2196F3; font-weight: bold;">{{shipment_status}}</td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- Courier Information -->
+            <div style="background-color: #f8f9fa; border-radius: 8px; padding: 20px; margin-bottom: 20px;">
+                <h2 style="margin: 0 0 15px 0; color: #333; font-size: 18px; border-bottom: 2px solid #2196F3; padding-bottom: 8px;">🚛 Courier Information</h2>
+                
+                <table style="width: 100%; border-collapse: collapse;">
+                    <tr>
+                        <td style="padding: 8px 0; font-weight: bold; color: #555; width: 120px;">Courier:</td>
+                        <td style="padding: 8px 0; color: #333;">{{courier_name}}</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 8px 0; font-weight: bold; color: #555;">Current Location:</td>
+                        <td style="padding: 8px 0; color: #333;">{{last_location}}</td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- Timeline -->
+            <div style="background-color: #f8f9fa; border-radius: 8px; padding: 20px; margin-bottom: 20px;">
+                <h2 style="margin: 0 0 15px 0; color: #333; font-size: 18px; border-bottom: 2px solid #2196F3; padding-bottom: 8px;">📅 Timeline</h2>
+                
+                <table style="width: 100%; border-collapse: collapse;">
+                    {{#if awb_assigned_date_formatted}}
+                    <tr>
+                        <td style="padding: 8px 0; font-weight: bold; color: #555; width: 120px;">AWB Assigned:</td>
+                        <td style="padding: 8px 0; color: #333;">{{awb_assigned_date_formatted}}</td>
+                    </tr>
+                    {{/if}}
+                    <tr>
+                        <td style="padding: 8px 0; font-weight: bold; color: #555;">Last Update:</td>
+                        <td style="padding: 8px 0; color: #2196F3; font-weight: bold;">{{current_date_formatted}}</td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- Progress Message -->
+            <div style="text-align: center; padding: 20px; background-color: #e3f2fd; border-radius: 8px; border-left: 4px solid #2196F3;">
+                <h3 style="margin: 0 0 10px 0; color: #1565C0;">🚚 Package In Transit</h3>
+                <p style="margin: 0; color: #555; line-height: 1.5;">Your package is currently being processed and will be delivered soon. We'll keep you updated on its progress!</p>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div style="background-color: #f8f9fa; padding: 20px; text-align: center; border-top: 1px solid #e0e0e0;">
+            <p style="margin: 0; color: #666; font-size: 12px;">Generated on {{current_date_formatted}}</p>
+            <p style="margin: 5px 0 0 0; color: #666; font-size: 12px;">This is an automated notification from your shipping service.</p>
+        </div>
+    </div>
+</body>
+</html>

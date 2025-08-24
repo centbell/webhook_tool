@@ -329,7 +329,32 @@
 [2025-08-24T05:48:49.327Z] INFO: 📧 Webhook endpoints: http://localhost:3003/webhook/:clientId/shipment 
 [2025-08-24T05:48:49.328Z] INFO: ❤️  Health check: http://localhost:3003/health 
 [2025-08-24T05:48:49.329Z] INFO: 📋 Available clients: http://localhost:3003/health/clients 
-[2025-08-24T05:54:58.956Z] INFO: 🚀 Multi-Client Webhook API Server started on port 3003 
-[2025-08-24T05:54:58.959Z] INFO: 📧 Webhook endpoints: http://localhost:3003/webhook/:clientId/shipment 
-[2025-08-24T05:54:58.966Z] INFO: ❤️  Health check: http://localhost:3003/health 
-[2025-08-24T05:54:58.966Z] INFO: 📋 Available clients: http://localhost:3003/health/clients 
+[2025-08-24T05:51:35.270Z] INFO: SIGTERM received. Shutting down gracefully... 
+[2025-08-24T05:52:14.877Z] INFO: 🚀 Multi-Client Webhook API Server started on port 3003 
+[2025-08-24T05:52:14.885Z] INFO: 📧 Webhook endpoints: http://localhost:3003/webhook/:clientId/shipment 
+[2025-08-24T05:52:14.888Z] INFO: ❤️  Health check: http://localhost:3003/health 
+[2025-08-24T05:52:14.890Z] INFO: 📋 Available clients: http://localhost:3003/health/clients 
+[2025-08-24T06:00:54.696Z] INFO: 🚀 Multi-Client Webhook API Server started on port 3003 
+[2025-08-24T06:00:54.714Z] INFO: 📧 Webhook endpoints: http://localhost:3003/webhook/:clientId/shipment 
+[2025-08-24T06:00:54.715Z] INFO: ❤️  Health check: http://localhost:3003/health 
+[2025-08-24T06:00:54.715Z] INFO: 📋 Available clients: http://localhost:3003/health/clients 
+[2025-08-24T06:02:41.445Z] INFO: SIGTERM received. Shutting down gracefully... 
+[2025-08-24T06:02:54.815Z] INFO: 🚀 Multi-Client Webhook API Server started on port 3003 
+[2025-08-24T06:02:54.817Z] INFO: 📧 Webhook endpoints: http://localhost:3003/webhook/:clientId/shipment 
+[2025-08-24T06:02:54.818Z] INFO: ❤️  Health check: http://localhost:3003/health 
+[2025-08-24T06:02:54.818Z] INFO: 📋 Available clients: http://localhost:3003/health/clients 
+[2025-08-24T06:03:10.419Z] INFO: SIGINT received. Shutting down gracefully... 
+[2025-08-24T06:03:48.511Z] INFO: 🚀 Multi-Client Webhook API Server started on port 3003 
+[2025-08-24T06:03:48.558Z] INFO: 📧 Webhook endpoints: http://localhost:3003/webhook/:clientId/shipment 
+[2025-08-24T06:03:48.560Z] INFO: ❤️  Health check: http://localhost:3003/health 
+[2025-08-24T06:03:48.561Z] INFO: 📋 Available clients: http://localhost:3003/health/clients 
+[2025-08-24T06:03:50.916Z] INFO: SIGINT received. Shutting down gracefully... 
+[2025-08-24T06:04:26.608Z] INFO: 🚀 Multi-Client Webhook API Server started on port 3003 
+[2025-08-24T06:04:26.615Z] INFO: 📧 Webhook endpoints: http://localhost:3003/webhook/:clientId/shipment 
+[2025-08-24T06:04:26.615Z] INFO: ❤️  Health check: http://localhost:3003/health 
+[2025-08-24T06:04:26.615Z] INFO: 📋 Available clients: http://localhost:3003/health/clients 
+[2025-08-24T06:04:43.446Z] INFO: SIGINT received. Shutting down gracefully... 
+[2025-08-24T06:06:17.496Z] INFO: 🚀 Multi-Client Webhook API Server started on port 3003 
+[2025-08-24T06:06:17.498Z] INFO: 📧 Webhook endpoints: http://localhost:3003/webhook/:clientId/shipment 
+[2025-08-24T06:06:17.498Z] INFO: ❤️  Health check: http://localhost:3003/health 
+[2025-08-24T06:06:17.499Z] INFO: 📋 Available clients: http://localhost:3003/health/clients 
